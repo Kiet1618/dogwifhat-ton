@@ -1,6 +1,6 @@
 import { Blockchain, SandboxContract, TreasuryContract } from '@ton/sandbox';
 import { Cell, toNano } from '@ton/core';
-import { PascalCase } from '../wrappers/PascalCase';
+import { PascalCase } from '../wrappers/dogwifhat-ton';
 import '@ton/test-utils';
 import { compile } from '@ton/blueprint';
 

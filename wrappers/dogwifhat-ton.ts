@@ -14,7 +14,7 @@ export const Opcodes = {
 };
 
 export class PascalCase implements Contract {
-    constructor(readonly address: Address, readonly init?: { code: Cell; data: Cell }) {}
+    constructor(readonly address: Address, readonly init?: { code: Cell; data: Cell }) { }
 
     static createFromAddress(address: Address) {
         return new PascalCase(address);

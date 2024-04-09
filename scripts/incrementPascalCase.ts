@@ -1,5 +1,5 @@
 import { Address, toNano } from '@ton/core';
-import { PascalCase } from '../wrappers/PascalCase';
+import { PascalCase } from '../wrappers/dogwifhat-ton';
 import { NetworkProvider, sleep } from '@ton/blueprint';
 
 export async function run(provider: NetworkProvider, args: string[]) {
